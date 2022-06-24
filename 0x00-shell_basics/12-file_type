@@ -1,2 +1,2 @@
 #!/bin/bash
-cat iamafile /tmp/iamafile
+file_type $file /tmp/iamafile 13-symbolic_link $ln -s /bin/ls ls
